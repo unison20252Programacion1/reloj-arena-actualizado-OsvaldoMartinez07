@@ -29,7 +29,6 @@ def main():
     try:
         # TODO: Convertir m_str a entero y asignarlo a m
         m = int(m_str)
-        return
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
         print("Error: La altura debe ser un numero entero")
